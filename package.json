@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon --watch app.js",
-    "start":" node app.js"
+    "start": " node app.js"
   },
   "repository": {
     "type": "git",
@@ -14,9 +14,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Imanshupatel/URL-Shortener/issues"
   },
-  "homepage": "https://github.com/Imanshupatel/URL-Shortener#readme"
+  "homepage": "https://github.com/Imanshupatel/URL-Shortener#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.0.1"
+  }
 }
